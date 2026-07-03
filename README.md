@@ -1,3 +1,3 @@
 # Dawn Jobs Front
 
-[In process] Front for dawn jobs builded in react
+[In process] Front for dawn jobs builded in react + VITE
