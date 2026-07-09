@@ -2,8 +2,8 @@
 
 body {
   background:
-    radial-gradient(circle at top left, #000000, transparent),
-    radial-gradient(circle at bottom right, #7c3aed, transparent),
+    radial-gradient(circle at top left, #3D2F2FFF, transparent),
+    radial-gradient(circle at bottom right, #4B3830FF, transparent),
     #0f172a;
   min-height: 100vh;
   color: white;
