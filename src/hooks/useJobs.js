@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import * as service from "../services/jobsService";
+import * as service from "../services/jobService.js";
 
 export function useJobs() {
 

@@ -1,4 +1,4 @@
-import { applyJob } from "../services/jobsService";
+import { applyJob } from "../services/jobService.js";
 
 export default function JobDetails({ job }) {
 

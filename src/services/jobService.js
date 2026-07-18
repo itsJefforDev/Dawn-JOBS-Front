@@ -1,4 +1,4 @@
-import api from "../../../services/api";
+import api from "./api.js";
 
 export const getAllJobs = async () => {
     const { data } = await api.get("/jobs/all");
