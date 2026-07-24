@@ -5,7 +5,7 @@ import { registerUser } from "../../services/authService";
 
 export default function RegisterForm() {
   const [form, setForm] = useState({
-    full_name: "",
+    name: "",
     email: "",
     password: ""
   });
@@ -19,7 +19,7 @@ export default function RegisterForm() {
     <form onSubmit={handleSubmit} className="glass p-8 rounded-global space-y-4">
       <Input
         placeholder="Full Name"
-        onChange={(e) => setForm({...form, full_name: e.target.value})}
+        onChange={(e) => setForm({...form, name: e.target.value})}
       />
 
       <Input
